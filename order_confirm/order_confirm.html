@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>订单确认</title>
+		<link rel="icon" href=" ../images/index.ico">
+		<link rel="stylesheet" type="text/css" href="../public/reset.css" />
+		<link rel="stylesheet" type="text/css" href="order_confirm.css" />
+		<link rel="stylesheet" type="text/css" href="../public/Validform/Validform_v5.3.2.css" />
+		<link rel="stylesheet" type="text/css" href="../public/layer/mobile/need/layer.css"/>
+	</head>
+	<body>
+		<div class="cover">
+			<div class="add">
+				<h5>地址管理</h5>
+				<form action="" method="">
+					<div>
+						<input type="text" datatype='*' class='name' placeholder="姓名" />
+						<div class="Validform_checktip"></div>
+					</div>
+					<div>
+						<input type="text" datatype='m' class="cell" placeholder="手机号" />
+						<div class="Validform_checktip"></div>
+					</div>
+					<select name="" class='region-province'></select>
+					<select name="" class='region-city'></select>
+					<select name="" class='region-area'></select>
+					<select name="" class='region-street'></select>
+					<div>
+						<input type="text" datatype='*' class='detailed' placeholder="详细地址" />
+						<div class="Validform_checktip"></div>
+					</div>
+					<div>
+						<input type="text" datatype='*' class='tag' placeholder="标签" />
+						<div class="Validform_checktip">学校或者公司</div>
+					</div>
+					<div class="yesno">
+						<button class='yes' type="button">确认</button>
+						<button class='yess' type="button">确认</button>
+						<button class='no' type="reset">取消</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="header-warp tonglan">
+			<div class="header w clearfix">
+				<div class="logo fl">
+					<img src="images/milogo.png">
+				</div>
+				<h1 class="fl">确认订单</h1>
+				<div class="right fr">
+					<span><a href="../profile/profile.html">个人中心</a></span>
+					<span>丨</span>
+					<span><a href="../order/order.html">我的订单</a></span>
+				</div>
+			</div>
+
+		</div>
+		<div class="order-warp w">
+			<div class="address-warp clearfix">
+				<h3>收货地址</h3>
+				
+				<div class="btn">
+					<span>+</span>
+					<p>添加新地址</p>
+
+				</div>
+			</div>
+			<div class="param-warp">
+				<h3>商品及优惠券</h3>
+				<div class="param-box">
+			
+				</div>
+			</div>
+			<div class="mode clearfix">
+				<h3 class="fl">配送方式</h3>
+				<span class='fl'>包邮</span>
+			</div>
+			<div class="invoice">
+				<h3>发票</h3>
+				<span>电子普通发票</span>
+				<div class="with-warp">
+					<span>应付总额：</span>
+					<span class='withll'></span>
+				</div>
+			</div>
+			<div class="btn-warp clearfix">
+				<button type="button" class=" btn-order fr"><a href="#">立即下单</a></button>
+				<button type="button" class="fr"><a href="../cart/cart.html">返回购物车</a></button>
+			</div>
+		</div>
+
+		<script src="../public/jQuery-1.8.2.js"></script>
+		<script src="../public/layer/layer.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../public/Validform/Validform_v5.3.2.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../public/regions.js"></script>
+		<script src="../public/regions_picker.js"></script>
+		<script src="order_confirm.js"></script>
+	</body>
+</html>

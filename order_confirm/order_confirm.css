@@ -1,0 +1,237 @@
+body,html {
+	background-color: #f5f5f5;
+}
+.param {
+	margin: 10px 0;
+}
+.param .xiaoji {
+	color: #ff6700;
+}
+.invoice {
+	box-sizing: border-box;
+	padding-left: 1000px;
+	margin-bottom: 30px;
+}
+.mode {
+	margin-top: 20px;
+	box-sizing: border-box;
+	padding-left: 1000px;
+}
+.header-warp{
+	border-bottom: 2px solid #ff6700;
+	line-height: 80px;
+	background-color: #fff;
+}
+.logo{
+	height: 100%;
+}
+.logo::after{
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+.logo img{
+	vertical-align: middle;
+}
+.header h1 {
+	margin-left: 20px;
+	font-size: 28px;
+	color: #424242;
+	font-weight: 400;
+}
+.header .right{
+	color: #757575;
+	font-size: 12px;
+}
+.header .right span a:hover {
+	color: #ff6700;
+}
+.order-warp {
+	background-color: #fff;
+}
+.order-warp {
+	background-color: #fff;
+	padding: 40px 20px;
+}
+.order-warp h3{
+	color: #333;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.order-warp .btn-warp button{
+	display: inline-block;
+	width: 158px;
+	height: 38px;;
+	border: 1px solid #b0b0b0;
+	font-size: 14px;
+	line-height: 38px;
+	text-align: center;
+	color: #b0b0b0;
+	cursor: pointer;
+	margin-left: 30px;
+	vertical-align: top;
+	background: #ff6700;
+	border-color: #ff6700;
+	color: #fff;
+}
+
+.cover {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+	position: absolute;
+	display: none;
+}
+.cover>.add{
+	width: 800px;
+	background-color: #fff;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	padding: 40px;
+	border-radius: 5px;
+}
+.cover>.add input{
+	height: 40px;
+	width: 100%;
+	border: 1px solid #b0b0b0;
+	border-radius: 3px;
+	text-indent: 14px;
+}
+.cover>.add select {
+	height: 40px;
+	margin-bottom: 20px;
+	width: 24.5585927%;
+	outline: none;
+	text-indent: 1em;
+}
+.cover>.add button{
+	height: 40px;
+	width: 140px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+}
+.yesno{
+	text-align: center;
+}
+.cover>.add button.yes{
+	margin-right: 30px;
+	background-color: #ff6700;
+}
+button.yess {
+	margin-right: 30px;
+	background-color: #ff6700;
+}
+
+.address {
+	display: inline-block;
+	width: 289px;
+	height: 200px;
+	border:1px solid #e0e0e0;
+	cursor:pointer;
+	margin-right: 17px;
+	margin-bottom: 20px;
+	transition: all 0.4s;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.address h2{
+	font-size: 18px;
+	color: #333;
+	line-height: 30px;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+.address p {
+	line-height: 22px;
+	color: #757575;
+	font-size: 14px;
+}
+.address button {
+	border:none;
+	background-color: #fff;
+	cursor:pointer;
+	float: right;
+	margin-left: 10px;
+	color: #FF6700;
+}
+.address-warp .btn{
+	float: left;
+	display: inline-block;
+	width: 289px;
+	height: 200px;
+	box-sizing: border-box;
+	border: 1px solid #e0e0e0;
+	cursor: pointer;
+	text-align: center;
+	transition: all 0.4s;
+	color: #E0E0E0;
+	margin-right: 17px;
+	margin-bottom: 20px;
+}
+.address-warp .btn:hover{
+	border: 1px solid #B0B0B0;
+	color: #B0B0B0;
+}
+.address-warp .btn span{
+	margin-top: 75px;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 30px;
+	background-color: #E0E0E0;
+	color: #fff;
+	font-weight: 900;
+}
+.address-warp .btn p {
+	font-size: 14px
+}
+
+/* 商品及优惠券 */
+.param .img-box{
+	width: 32px;
+}
+.img-box img{
+	width: 100%;
+}
+.param span.name {
+	display: inline-block;
+	width: 400px;
+	margin-left: 100px;
+}
+.param span.price {
+	margin-left: 100px;
+}
+.mode h3 {
+	margin-right: 50px;
+}
+.mode span {
+	color: #ff6700;
+}
+.invoice>span {
+	color: #ff6700;
+	margin-bottom: 10px;
+}
+span.withll {
+	color: #ff6700;
+	font-size: 30px;
+}
+.default {
+	border: 1px solid #ff6700;
+}
+.add { padding-top: 20px!important; }
+.add h5 {
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	font-weight: 400;
+	color: #424242;
+}

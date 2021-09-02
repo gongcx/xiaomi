@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none
+}
+
+a {
+	text-decoration: none;
+	color: inherit
+}
+
+.clearfix:after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	clear: both;
+}
+
+.w {
+	width: 1226px;
+	margin: 0 auto;
+}
+
+.tonglan {
+	width: 100%;
+	min-width: 1226px;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+/* 文本截断 */
+.ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+}
+button,input{
+	outline: none;
+}
+.sidenav li {
+	cursor: pointer;
+}
